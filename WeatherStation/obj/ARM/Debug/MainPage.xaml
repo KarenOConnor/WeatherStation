@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="WeatherStation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherStation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="txtTemperature" HorizontalAlignment="Left" Height="40" Margin="419,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="503"/>
+        <TextBlock x:ConnectionId='2' x:Name="txtHumidity" HorizontalAlignment="Left" Height="97" Margin="419,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="549"/>
+        <TextBlock x:ConnectionId='3' x:Name="txtTempName" HorizontalAlignment="Left" Height="28" Margin="248,143,0,0" TextWrapping="Wrap" Text="Tempurature" VerticalAlignment="Top" Width="153"/>
+        <TextBlock x:ConnectionId='4' x:Name="txtHumName" HorizontalAlignment="Left" Height="28" Margin="248,265,0,0" TextWrapping="Wrap" Text="Humidity" VerticalAlignment="Top" Width="153"/>
+    </Grid>
+</Page>
+
